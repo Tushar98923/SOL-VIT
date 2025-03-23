@@ -1,0 +1,170 @@
+{"_id":{"$oid":"67df05c8942e5772e950e975"},"cab_id":"CAB101","start":"Delhi","end":"Noida","availability":"Yes","type":"Sedan","fare_per_km":12,"rating":4.7}
+{"_id":{"$oid":"67df05c8942e5772e950e976"},"cab_id":"CAB102","start":"Mumbai","end":"Pune","availability":"Yes","type":"SUV","fare_per_km":15,"rating":4.5}
+{"_id":{"$oid":"67df05c8942e5772e950e977"},"cab_id":"CAB103","start":"Chennai","end":"Mahabalipuram","availability":"No","type":"Mini","fare_per_km":10,"rating":4.3}
+{"_id":{"$oid":"67df05c8942e5772e950e978"},"cab_id":"CAB104","start":"Bangalore","end":"Mysore","availability":"Yes","type":"Sedan","fare_per_km":13,"rating":4.8}
+{"_id":{"$oid":"67df05c8942e5772e950e979"},"cab_id":"CAB105","start":"Kolkata","end":"Howrah","availability":"Yes","type":"SUV","fare_per_km":14,"rating":4.6}
+{"_id":{"$oid":"67df05c8942e5772e950e97a"},"cab_id":"CAB106","start":"Jaipur","end":"Ajmer","availability":"No","type":"Mini","fare_per_km":9,"rating":4.2}
+{"_id":{"$oid":"67df05c8942e5772e950e97b"},"cab_id":"CAB107","start":"Hyderabad","end":"Warangal","availability":"Yes","type":"Sedan","fare_per_km":12,"rating":4.7}
+{"_id":{"$oid":"67df05c8942e5772e950e97c"},"cab_id":"CAB108","start":"Lucknow","end":"Kanpur","availability":"Yes","type":"SUV","fare_per_km":16,"rating":4.9}
+{"_id":{"$oid":"67df05c8942e5772e950e97d"},"cab_id":"CAB109","start":"Indore","end":"Ujjain","availability":"No","type":"Mini","fare_per_km":10,"rating":4.1}
+{"_id":{"$oid":"67df05c8942e5772e950e97e"},"cab_id":"CAB110","start":"Guwahati","end":"Shillong","availability":"Yes","type":"Sedan","fare_per_km":13,"rating":4.5}
+{"_id":{"$oid":"67df05d2d6718e11c0146651"},"cab_id":"CAB111","start":"Delhi","end":"Gurgaon","availability":"Yes","type":"Sedan","fare_per_km":12,"rating":4.8}
+{"_id":{"$oid":"67df05d2d6718e11c0146652"},"cab_id":"CAB112","start":"Mumbai","end":"Thane","availability":"Yes","type":"SUV","fare_per_km":15,"rating":4.7}
+{"_id":{"$oid":"67df05d2d6718e11c0146653"},"cab_id":"CAB113","start":"Chennai","end":"Pondicherry","availability":"No","type":"Mini","fare_per_km":11,"rating":4.3}
+{"_id":{"$oid":"67df05d2d6718e11c0146654"},"cab_id":"CAB114","start":"Bangalore","end":"Coorg","availability":"Yes","type":"Sedan","fare_per_km":14,"rating":4.6}
+{"_id":{"$oid":"67df05d2d6718e11c0146655"},"cab_id":"CAB115","start":"Kolkata","end":"Durgapur","availability":"Yes","type":"SUV","fare_per_km":16,"rating":4.5}
+{"_id":{"$oid":"67df05d2d6718e11c0146656"},"cab_id":"CAB116","start":"Jaipur","end":"Udaipur","availability":"No","type":"Mini","fare_per_km":10,"rating":4.2}
+{"_id":{"$oid":"67df05d2d6718e11c0146657"},"cab_id":"CAB117","start":"Hyderabad","end":"Vijayawada","availability":"Yes","type":"Sedan","fare_per_km":13,"rating":4.7}
+{"_id":{"$oid":"67df05d2d6718e11c0146658"},"cab_id":"CAB118","start":"Lucknow","end":"Varanasi","availability":"Yes","type":"SUV","fare_per_km":18,"rating":4.9}
+{"_id":{"$oid":"67df05d2d6718e11c0146659"},"cab_id":"CAB119","start":"Indore","end":"Bhopal","availability":"No","type":"Mini","fare_per_km":11,"rating":4.1}
+{"_id":{"$oid":"67df05d2d6718e11c014665a"},"cab_id":"CAB120","start":"Guwahati","end":"Kaziranga","availability":"Yes","type":"Sedan","fare_per_km":14,"rating":4.6}
+{"_id":{"$oid":"67df05d2d6718e11c014665b"},"cab_id":"CAB121","start":"Delhi","end":"Faridabad","availability":"Yes","type":"Sedan","fare_per_km":12,"rating":4.7}
+{"_id":{"$oid":"67df05d2d6718e11c014665c"},"cab_id":"CAB122","start":"Mumbai","end":"Navi Mumbai","availability":"Yes","type":"SUV","fare_per_km":15,"rating":4.6}
+{"_id":{"$oid":"67df05d2d6718e11c014665d"},"cab_id":"CAB123","start":"Chennai","end":"Kanchipuram","availability":"No","type":"Mini","fare_per_km":10,"rating":4.3}
+{"_id":{"$oid":"67df05d2d6718e11c014665e"},"cab_id":"CAB124","start":"Bangalore","end":"Mangalore","availability":"Yes","type":"Sedan","fare_per_km":14,"rating":4.5}
+{"_id":{"$oid":"67df05d2d6718e11c014665f"},"cab_id":"CAB125","start":"Kolkata","end":"Siliguri","availability":"Yes","type":"SUV","fare_per_km":17,"rating":4.5}
+{"_id":{"$oid":"67df05d2d6718e11c0146660"},"cab_id":"CAB126","start":"Jaipur","end":"Jodhpur","availability":"No","type":"Mini","fare_per_km":10,"rating":4.2}
+{"_id":{"$oid":"67df05d2d6718e11c0146661"},"cab_id":"CAB127","start":"Hyderabad","end":"Tirupati","availability":"Yes","type":"Sedan","fare_per_km":13,"rating":4.8}
+{"_id":{"$oid":"67df05d2d6718e11c0146662"},"cab_id":"CAB128","start":"Lucknow","end":"Agra","availability":"Yes","type":"SUV","fare_per_km":19,"rating":4.9}
+{"_id":{"$oid":"67df05d2d6718e11c0146663"},"cab_id":"CAB129","start":"Indore","end":"Dewas","availability":"No","type":"Mini","fare_per_km":11,"rating":4.1}
+{"_id":{"$oid":"67df05d2d6718e11c0146664"},"cab_id":"CAB130","start":"Guwahati","end":"Dibrugarh","availability":"Yes","type":"Sedan","fare_per_km":14,"rating":4.6}
+{"_id":{"$oid":"67df05f833532ccc46857a5a"},"cab_id":"CAB131","start":"Delhi","end":"Noida","availability":"Yes","type":"Sedan","fare_per_km":12,"rating":4.7}
+{"_id":{"$oid":"67df05f833532ccc46857a5b"},"cab_id":"CAB132","start":"Mumbai","end":"Vasai","availability":"Yes","type":"SUV","fare_per_km":16,"rating":4.6}
+{"_id":{"$oid":"67df05f833532ccc46857a5c"},"cab_id":"CAB133","start":"Chennai","end":"Mahabalipuram","availability":"No","type":"Mini","fare_per_km":11,"rating":4.3}
+{"_id":{"$oid":"67df05f833532ccc46857a5d"},"cab_id":"CAB134","start":"Bangalore","end":"Mysore","availability":"Yes","type":"Sedan","fare_per_km":14,"rating":4.7}
+{"_id":{"$oid":"67df05f833532ccc46857a5e"},"cab_id":"CAB135","start":"Kolkata","end":"Howrah","availability":"Yes","type":"SUV","fare_per_km":18,"rating":4.5}
+{"_id":{"$oid":"67df05f833532ccc46857a5f"},"cab_id":"CAB136","start":"Jaipur","end":"Ajmer","availability":"No","type":"Mini","fare_per_km":10,"rating":4.2}
+{"_id":{"$oid":"67df05f833532ccc46857a60"},"cab_id":"CAB137","start":"Hyderabad","end":"Warangal","availability":"Yes","type":"Sedan","fare_per_km":13,"rating":4.8}
+{"_id":{"$oid":"67df05f833532ccc46857a61"},"cab_id":"CAB138","start":"Lucknow","end":"Kanpur","availability":"Yes","type":"SUV","fare_per_km":19,"rating":4.9}
+{"_id":{"$oid":"67df05f833532ccc46857a62"},"cab_id":"CAB139","start":"Indore","end":"Ujjain","availability":"No","type":"Mini","fare_per_km":11,"rating":4.1}
+{"_id":{"$oid":"67df05f833532ccc46857a63"},"cab_id":"CAB140","start":"Guwahati","end":"Shillong","availability":"Yes","type":"Sedan","fare_per_km":14,"rating":4.6}
+{"_id":{"$oid":"67df05f833532ccc46857a64"},"cab_id":"CAB141","start":"Pune","end":"Lonavala","availability":"Yes","type":"Sedan","fare_per_km":13,"rating":4.7}
+{"_id":{"$oid":"67df05f833532ccc46857a65"},"cab_id":"CAB142","start":"Nagpur","end":"Amravati","availability":"Yes","type":"SUV","fare_per_km":15,"rating":4.6}
+{"_id":{"$oid":"67df05f833532ccc46857a66"},"cab_id":"CAB143","start":"Surat","end":"Vadodara","availability":"No","type":"Mini","fare_per_km":10,"rating":4.2}
+{"_id":{"$oid":"67df05f833532ccc46857a67"},"cab_id":"CAB144","start":"Patna","end":"Gaya","availability":"Yes","type":"Sedan","fare_per_km":12,"rating":4.5}
+{"_id":{"$oid":"67df05f833532ccc46857a68"},"cab_id":"CAB145","start":"Bhubaneswar","end":"Puri","availability":"Yes","type":"SUV","fare_per_km":18,"rating":4.5}
+{"_id":{"$oid":"67df05f833532ccc46857a69"},"cab_id":"CAB146","start":"Chandigarh","end":"Shimla","availability":"No","type":"Mini","fare_per_km":10,"rating":4.1}
+{"_id":{"$oid":"67df05f833532ccc46857a6a"},"cab_id":"CAB147","start":"Coimbatore","end":"Ooty","availability":"Yes","type":"Sedan","fare_per_km":14,"rating":4.8}
+{"_id":{"$oid":"67df05f833532ccc46857a6b"},"cab_id":"CAB148","start":"Kochi","end":"Munnar","availability":"Yes","type":"SUV","fare_per_km":19,"rating":4.9}
+{"_id":{"$oid":"67df05f833532ccc46857a6c"},"cab_id":"CAB149","start":"Dehradun","end":"Mussoorie","availability":"No","type":"Mini","fare_per_km":11,"rating":4.2}
+{"_id":{"$oid":"67df05f833532ccc46857a6d"},"cab_id":"CAB150","start":"Ranchi","end":"Jamshedpur","availability":"Yes","type":"Sedan","fare_per_km":14,"rating":4.6}
+{"_id":{"$oid":"67df061c2965ca7da8a4f9dc"},"cab_id":"CAB151","start":"Delhi","end":"Gurgaon","availability":"Yes","type":"Sedan","fare_per_km":12,"rating":4.7}
+{"_id":{"$oid":"67df061c2965ca7da8a4f9dd"},"cab_id":"CAB152","start":"Mumbai","end":"Thane","availability":"Yes","type":"SUV","fare_per_km":16,"rating":4.6}
+{"_id":{"$oid":"67df061c2965ca7da8a4f9de"},"cab_id":"CAB153","start":"Chennai","end":"Vellore","availability":"No","type":"Mini","fare_per_km":11,"rating":4.3}
+{"_id":{"$oid":"67df061c2965ca7da8a4f9df"},"cab_id":"CAB154","start":"Bangalore","end":"Tumkur","availability":"Yes","type":"Sedan","fare_per_km":14,"rating":4.7}
+{"_id":{"$oid":"67df061c2965ca7da8a4f9e0"},"cab_id":"CAB155","start":"Kolkata","end":"Durgapur","availability":"Yes","type":"SUV","fare_per_km":18,"rating":4.5}
+{"_id":{"$oid":"67df061c2965ca7da8a4f9e1"},"cab_id":"CAB156","start":"Jaipur","end":"Kota","availability":"No","type":"Mini","fare_per_km":10,"rating":4.2}
+{"_id":{"$oid":"67df061c2965ca7da8a4f9e2"},"cab_id":"CAB157","start":"Hyderabad","end":"Nizamabad","availability":"Yes","type":"Sedan","fare_per_km":13,"rating":4.8}
+{"_id":{"$oid":"67df061c2965ca7da8a4f9e3"},"cab_id":"CAB158","start":"Lucknow","end":"Varanasi","availability":"Yes","type":"SUV","fare_per_km":19,"rating":4.9}
+{"_id":{"$oid":"67df061c2965ca7da8a4f9e4"},"cab_id":"CAB159","start":"Indore","end":"Ratlam","availability":"No","type":"Mini","fare_per_km":11,"rating":4.1}
+{"_id":{"$oid":"67df061c2965ca7da8a4f9e5"},"cab_id":"CAB160","start":"Guwahati","end":"Tezpur","availability":"Yes","type":"Sedan","fare_per_km":14,"rating":4.6}
+{"_id":{"$oid":"67df061c2965ca7da8a4f9e6"},"cab_id":"CAB161","start":"Pune","end":"Nashik","availability":"Yes","type":"Sedan","fare_per_km":13,"rating":4.7}
+{"_id":{"$oid":"67df061c2965ca7da8a4f9e7"},"cab_id":"CAB162","start":"Nagpur","end":"Wardha","availability":"Yes","type":"SUV","fare_per_km":15,"rating":4.6}
+{"_id":{"$oid":"67df061c2965ca7da8a4f9e8"},"cab_id":"CAB163","start":"Surat","end":"Bharuch","availability":"No","type":"Mini","fare_per_km":10,"rating":4.2}
+{"_id":{"$oid":"67df061c2965ca7da8a4f9e9"},"cab_id":"CAB164","start":"Patna","end":"Muzaffarpur","availability":"Yes","type":"Sedan","fare_per_km":12,"rating":4.5}
+{"_id":{"$oid":"67df061c2965ca7da8a4f9ea"},"cab_id":"CAB165","start":"Bhubaneswar","end":"Cuttack","availability":"Yes","type":"SUV","fare_per_km":18,"rating":4.5}
+{"_id":{"$oid":"67df061c2965ca7da8a4f9eb"},"cab_id":"CAB166","start":"Chandigarh","end":"Kasauli","availability":"No","type":"Mini","fare_per_km":10,"rating":4.1}
+{"_id":{"$oid":"67df061c2965ca7da8a4f9ec"},"cab_id":"CAB167","start":"Coimbatore","end":"Palakkad","availability":"Yes","type":"Sedan","fare_per_km":14,"rating":4.8}
+{"_id":{"$oid":"67df061c2965ca7da8a4f9ed"},"cab_id":"CAB168","start":"Kochi","end":"Alleppey","availability":"Yes","type":"SUV","fare_per_km":19,"rating":4.9}
+{"_id":{"$oid":"67df061c2965ca7da8a4f9ee"},"cab_id":"CAB169","start":"Dehradun","end":"Rishikesh","availability":"No","type":"Mini","fare_per_km":11,"rating":4.2}
+{"_id":{"$oid":"67df061c2965ca7da8a4f9ef"},"cab_id":"CAB170","start":"Ranchi","end":"Dhanbad","availability":"Yes","type":"Sedan","fare_per_km":14,"rating":4.6}
+{"_id":{"$oid":"67df063e64035d5fa3df2ef4"},"cab_id":"CAB171","start":"Delhi","end":"Noida","availability":"Yes","type":"Sedan","fare_per_km":13,"rating":4.7}
+{"_id":{"$oid":"67df063e64035d5fa3df2ef5"},"cab_id":"CAB172","start":"Mumbai","end":"Pune","availability":"Yes","type":"SUV","fare_per_km":17,"rating":4.8}
+{"_id":{"$oid":"67df063e64035d5fa3df2ef6"},"cab_id":"CAB173","start":"Chennai","end":"Mahabalipuram","availability":"No","type":"Mini","fare_per_km":11,"rating":4.2}
+{"_id":{"$oid":"67df063e64035d5fa3df2ef7"},"cab_id":"CAB174","start":"Bangalore","end":"Mysore","availability":"Yes","type":"Sedan","fare_per_km":15,"rating":4.9}
+{"_id":{"$oid":"67df063e64035d5fa3df2ef8"},"cab_id":"CAB175","start":"Kolkata","end":"Howrah","availability":"Yes","type":"SUV","fare_per_km":18,"rating":4.6}
+{"_id":{"$oid":"67df063e64035d5fa3df2ef9"},"cab_id":"CAB176","start":"Jaipur","end":"Udaipur","availability":"No","type":"Mini","fare_per_km":10,"rating":4.3}
+{"_id":{"$oid":"67df063e64035d5fa3df2efa"},"cab_id":"CAB177","start":"Hyderabad","end":"Warangal","availability":"Yes","type":"Sedan","fare_per_km":14,"rating":4.7}
+{"_id":{"$oid":"67df063e64035d5fa3df2efb"},"cab_id":"CAB178","start":"Lucknow","end":"Kanpur","availability":"Yes","type":"SUV","fare_per_km":19,"rating":4.9}
+{"_id":{"$oid":"67df063e64035d5fa3df2efc"},"cab_id":"CAB179","start":"Indore","end":"Bhopal","availability":"No","type":"Mini","fare_per_km":11,"rating":4.1}
+{"_id":{"$oid":"67df063e64035d5fa3df2efd"},"cab_id":"CAB180","start":"Guwahati","end":"Shillong","availability":"Yes","type":"Sedan","fare_per_km":14,"rating":4.6}
+{"_id":{"$oid":"67df063e64035d5fa3df2efe"},"cab_id":"CAB181","start":"Pune","end":"Lonavala","availability":"Yes","type":"Sedan","fare_per_km":12,"rating":4.8}
+{"_id":{"$oid":"67df063e64035d5fa3df2eff"},"cab_id":"CAB182","start":"Nagpur","end":"Amravati","availability":"Yes","type":"SUV","fare_per_km":16,"rating":4.7}
+{"_id":{"$oid":"67df063e64035d5fa3df2f00"},"cab_id":"CAB183","start":"Surat","end":"Vadodara","availability":"No","type":"Mini","fare_per_km":10,"rating":4.2}
+{"_id":{"$oid":"67df063e64035d5fa3df2f01"},"cab_id":"CAB184","start":"Patna","end":"Gaya","availability":"Yes","type":"Sedan","fare_per_km":12,"rating":4.5}
+{"_id":{"$oid":"67df063e64035d5fa3df2f02"},"cab_id":"CAB185","start":"Bhubaneswar","end":"Puri","availability":"Yes","type":"SUV","fare_per_km":18,"rating":4.6}
+{"_id":{"$oid":"67df063e64035d5fa3df2f03"},"cab_id":"CAB186","start":"Chandigarh","end":"Manali","availability":"No","type":"Mini","fare_per_km":10,"rating":4.1}
+{"_id":{"$oid":"67df063e64035d5fa3df2f04"},"cab_id":"CAB187","start":"Coimbatore","end":"Ooty","availability":"Yes","type":"Sedan","fare_per_km":14,"rating":4.7}
+{"_id":{"$oid":"67df063e64035d5fa3df2f05"},"cab_id":"CAB188","start":"Kochi","end":"Munnar","availability":"Yes","type":"SUV","fare_per_km":19,"rating":4.9}
+{"_id":{"$oid":"67df063e64035d5fa3df2f06"},"cab_id":"CAB189","start":"Dehradun","end":"Mussoorie","availability":"No","type":"Mini","fare_per_km":11,"rating":4.2}
+{"_id":{"$oid":"67df063e64035d5fa3df2f07"},"cab_id":"CAB190","start":"Ranchi","end":"Jamshedpur","availability":"Yes","type":"Sedan","fare_per_km":14,"rating":4.6}
+{"_id":{"$oid":"67df06656df305c03e75f906"},"cab_id":"CAB191","start":"Delhi","end":"Gurgaon","availability":"Yes","type":"Sedan","fare_per_km":14,"rating":4.7}
+{"_id":{"$oid":"67df06656df305c03e75f907"},"cab_id":"CAB192","start":"Mumbai","end":"Nashik","availability":"Yes","type":"SUV","fare_per_km":18,"rating":4.6}
+{"_id":{"$oid":"67df06656df305c03e75f908"},"cab_id":"CAB193","start":"Chennai","end":"Pondicherry","availability":"No","type":"Mini","fare_per_km":11,"rating":4.3}
+{"_id":{"$oid":"67df06656df305c03e75f909"},"cab_id":"CAB194","start":"Bangalore","end":"Tumkur","availability":"Yes","type":"Sedan","fare_per_km":13,"rating":4.8}
+{"_id":{"$oid":"67df06656df305c03e75f90a"},"cab_id":"CAB195","start":"Kolkata","end":"Durgapur","availability":"Yes","type":"SUV","fare_per_km":17,"rating":4.5}
+{"_id":{"$oid":"67df06656df305c03e75f90b"},"cab_id":"CAB196","start":"Jaipur","end":"Jodhpur","availability":"No","type":"Mini","fare_per_km":10,"rating":4.2}
+{"_id":{"$oid":"67df06656df305c03e75f90c"},"cab_id":"CAB197","start":"Hyderabad","end":"Vijayawada","availability":"Yes","type":"Sedan","fare_per_km":15,"rating":4.9}
+{"_id":{"$oid":"67df06656df305c03e75f90d"},"cab_id":"CAB198","start":"Lucknow","end":"Agra","availability":"Yes","type":"SUV","fare_per_km":20,"rating":4.8}
+{"_id":{"$oid":"67df06656df305c03e75f90e"},"cab_id":"CAB199","start":"Indore","end":"Ujjain","availability":"No","type":"Mini","fare_per_km":12,"rating":4.0}
+{"_id":{"$oid":"67df06656df305c03e75f90f"},"cab_id":"CAB200","start":"Guwahati","end":"Kaziranga","availability":"Yes","type":"Sedan","fare_per_km":16,"rating":4.7}
+{"_id":{"$oid":"67df06656df305c03e75f910"},"cab_id":"CAB201","start":"Pune","end":"Mahabaleshwar","availability":"Yes","type":"Sedan","fare_per_km":13,"rating":4.8}
+{"_id":{"$oid":"67df06656df305c03e75f911"},"cab_id":"CAB202","start":"Nagpur","end":"Raipur","availability":"Yes","type":"SUV","fare_per_km":19,"rating":4.6}
+{"_id":{"$oid":"67df06656df305c03e75f912"},"cab_id":"CAB203","start":"Surat","end":"Rajkot","availability":"No","type":"Mini","fare_per_km":11,"rating":4.1}
+{"_id":{"$oid":"67df06656df305c03e75f913"},"cab_id":"CAB204","start":"Patna","end":"Darbhanga","availability":"Yes","type":"Sedan","fare_per_km":13,"rating":4.5}
+{"_id":{"$oid":"67df06656df305c03e75f914"},"cab_id":"CAB205","start":"Bhubaneswar","end":"Cuttack","availability":"Yes","type":"SUV","fare_per_km":18,"rating":4.7}
+{"_id":{"$oid":"67df06656df305c03e75f915"},"cab_id":"CAB206","start":"Chandigarh","end":"Shimla","availability":"No","type":"Mini","fare_per_km":12,"rating":4.2}
+{"_id":{"$oid":"67df06656df305c03e75f916"},"cab_id":"CAB207","start":"Coimbatore","end":"Kodaikanal","availability":"Yes","type":"Sedan","fare_per_km":15,"rating":4.6}
+{"_id":{"$oid":"67df06656df305c03e75f917"},"cab_id":"CAB208","start":"Kochi","end":"Alleppey","availability":"Yes","type":"SUV","fare_per_km":21,"rating":4.9}
+{"_id":{"$oid":"67df06656df305c03e75f918"},"cab_id":"CAB209","start":"Dehradun","end":"Rishikesh","availability":"No","type":"Mini","fare_per_km":10,"rating":4.3}
+{"_id":{"$oid":"67df06656df305c03e75f919"},"cab_id":"CAB210","start":"Ranchi","end":"Dhanbad","availability":"Yes","type":"Sedan","fare_per_km":14,"rating":4.6}
+{"_id":{"$oid":"67df0680dece1755483e8e9c"},"cab_id":"CAB211","start":"Mumbai","end":"Lonavala","availability":"Yes","type":"SUV","fare_per_km":18,"rating":4.7}
+{"_id":{"$oid":"67df0680dece1755483e8e9d"},"cab_id":"CAB212","start":"Delhi","end":"Meerut","availability":"Yes","type":"Sedan","fare_per_km":15,"rating":4.6}
+{"_id":{"$oid":"67df0680dece1755483e8e9e"},"cab_id":"CAB213","start":"Chennai","end":"Vellore","availability":"No","type":"Mini","fare_per_km":12,"rating":4.3}
+{"_id":{"$oid":"67df0680dece1755483e8e9f"},"cab_id":"CAB214","start":"Bangalore","end":"Mysore","availability":"Yes","type":"Sedan","fare_per_km":14,"rating":4.8}
+{"_id":{"$oid":"67df0680dece1755483e8ea0"},"cab_id":"CAB215","start":"Kolkata","end":"Siliguri","availability":"Yes","type":"SUV","fare_per_km":19,"rating":4.5}
+{"_id":{"$oid":"67df0680dece1755483e8ea1"},"cab_id":"CAB216","start":"Hyderabad","end":"Warangal","availability":"No","type":"Mini","fare_per_km":10,"rating":4.2}
+{"_id":{"$oid":"67df0680dece1755483e8ea2"},"cab_id":"CAB217","start":"Jaipur","end":"Ajmer","availability":"Yes","type":"Sedan","fare_per_km":15,"rating":4.9}
+{"_id":{"$oid":"67df0680dece1755483e8ea3"},"cab_id":"CAB218","start":"Lucknow","end":"Kanpur","availability":"Yes","type":"SUV","fare_per_km":20,"rating":4.8}
+{"_id":{"$oid":"67df0680dece1755483e8ea4"},"cab_id":"CAB219","start":"Indore","end":"Bhopal","availability":"No","type":"Mini","fare_per_km":11,"rating":4.0}
+{"_id":{"$oid":"67df0680dece1755483e8ea5"},"cab_id":"CAB220","start":"Guwahati","end":"Shillong","availability":"Yes","type":"Sedan","fare_per_km":16,"rating":4.7}
+{"_id":{"$oid":"67df0680dece1755483e8ea6"},"cab_id":"CAB221","start":"Pune","end":"Shirdi","availability":"Yes","type":"Sedan","fare_per_km":13,"rating":4.8}
+{"_id":{"$oid":"67df0680dece1755483e8ea7"},"cab_id":"CAB222","start":"Nagpur","end":"Amravati","availability":"Yes","type":"SUV","fare_per_km":18,"rating":4.6}
+{"_id":{"$oid":"67df0680dece1755483e8ea8"},"cab_id":"CAB223","start":"Surat","end":"Vadodara","availability":"No","type":"Mini","fare_per_km":10,"rating":4.1}
+{"_id":{"$oid":"67df0680dece1755483e8ea9"},"cab_id":"CAB224","start":"Patna","end":"Gaya","availability":"Yes","type":"Sedan","fare_per_km":14,"rating":4.5}
+{"_id":{"$oid":"67df0680dece1755483e8eaa"},"cab_id":"CAB225","start":"Bhubaneswar","end":"Puri","availability":"Yes","type":"SUV","fare_per_km":19,"rating":4.7}
+{"_id":{"$oid":"67df0680dece1755483e8eab"},"cab_id":"CAB226","start":"Chandigarh","end":"Manali","availability":"No","type":"Mini","fare_per_km":12,"rating":4.2}
+{"_id":{"$oid":"67df0680dece1755483e8eac"},"cab_id":"CAB227","start":"Coimbatore","end":"Ooty","availability":"Yes","type":"Sedan","fare_per_km":15,"rating":4.6}
+{"_id":{"$oid":"67df0680dece1755483e8ead"},"cab_id":"CAB228","start":"Kochi","end":"Munnar","availability":"Yes","type":"SUV","fare_per_km":22,"rating":4.9}
+{"_id":{"$oid":"67df0680dece1755483e8eae"},"cab_id":"CAB229","start":"Dehradun","end":"Mussoorie","availability":"No","type":"Mini","fare_per_km":11,"rating":4.3}
+{"_id":{"$oid":"67df0680dece1755483e8eaf"},"cab_id":"CAB230","start":"Ranchi","end":"Jamshedpur","availability":"Yes","type":"Sedan","fare_per_km":14,"rating":4.6}
+{"_id":{"$oid":"67df06b17ccc78cae6bca8a4"},"cab_id":"CAB231","start":"Mumbai","end":"Pune","availability":"Yes","type":"Sedan","fare_per_km":16,"rating":4.7}
+{"_id":{"$oid":"67df06b17ccc78cae6bca8a5"},"cab_id":"CAB232","start":"Delhi","end":"Agra","availability":"Yes","type":"SUV","fare_per_km":20,"rating":4.8}
+{"_id":{"$oid":"67df06b17ccc78cae6bca8a6"},"cab_id":"CAB233","start":"Chennai","end":"Pondicherry","availability":"No","type":"Mini","fare_per_km":12,"rating":4.4}
+{"_id":{"$oid":"67df06b17ccc78cae6bca8a7"},"cab_id":"CAB234","start":"Bangalore","end":"Hampi","availability":"Yes","type":"Sedan","fare_per_km":15,"rating":4.9}
+{"_id":{"$oid":"67df06b17ccc78cae6bca8a8"},"cab_id":"CAB235","start":"Kolkata","end":"Darjeeling","availability":"Yes","type":"SUV","fare_per_km":22,"rating":4.6}
+{"_id":{"$oid":"67df06b17ccc78cae6bca8a9"},"cab_id":"CAB236","start":"Hyderabad","end":"Nizamabad","availability":"No","type":"Mini","fare_per_km":11,"rating":4.2}
+{"_id":{"$oid":"67df06b17ccc78cae6bca8aa"},"cab_id":"CAB237","start":"Jaipur","end":"Udaipur","availability":"Yes","type":"Sedan","fare_per_km":18,"rating":4.7}
+{"_id":{"$oid":"67df06b17ccc78cae6bca8ab"},"cab_id":"CAB238","start":"Lucknow","end":"Varanasi","availability":"Yes","type":"SUV","fare_per_km":21,"rating":4.8}
+{"_id":{"$oid":"67df06b17ccc78cae6bca8ac"},"cab_id":"CAB239","start":"Indore","end":"Ujjain","availability":"No","type":"Mini","fare_per_km":10,"rating":4.3}
+{"_id":{"$oid":"67df06b17ccc78cae6bca8ad"},"cab_id":"CAB240","start":"Guwahati","end":"Kaziranga","availability":"Yes","type":"Sedan","fare_per_km":17,"rating":4.9}
+{"_id":{"$oid":"67df06b17ccc78cae6bca8ae"},"cab_id":"CAB241","start":"Pune","end":"Mahabaleshwar","availability":"Yes","type":"Sedan","fare_per_km":14,"rating":4.7}
+{"_id":{"$oid":"67df06b17ccc78cae6bca8af"},"cab_id":"CAB242","start":"Nagpur","end":"Chandrapur","availability":"Yes","type":"SUV","fare_per_km":19,"rating":4.6}
+{"_id":{"$oid":"67df06b17ccc78cae6bca8b0"},"cab_id":"CAB243","start":"Surat","end":"Daman","availability":"No","type":"Mini","fare_per_km":11,"rating":4.2}
+{"_id":{"$oid":"67df06b17ccc78cae6bca8b1"},"cab_id":"CAB244","start":"Patna","end":"Darbhanga","availability":"Yes","type":"Sedan","fare_per_km":16,"rating":4.5}
+{"_id":{"$oid":"67df06b17ccc78cae6bca8b2"},"cab_id":"CAB245","start":"Bhubaneswar","end":"Konark","availability":"Yes","type":"SUV","fare_per_km":20,"rating":4.8}
+{"_id":{"$oid":"67df06b17ccc78cae6bca8b3"},"cab_id":"CAB246","start":"Chandigarh","end":"Shimla","availability":"No","type":"Mini","fare_per_km":12,"rating":4.3}
+{"_id":{"$oid":"67df06b17ccc78cae6bca8b4"},"cab_id":"CAB247","start":"Coimbatore","end":"Madurai","availability":"Yes","type":"Sedan","fare_per_km":17,"rating":4.6}
+{"_id":{"$oid":"67df06b17ccc78cae6bca8b5"},"cab_id":"CAB248","start":"Kochi","end":"Alleppey","availability":"Yes","type":"SUV","fare_per_km":22,"rating":4.9}
+{"_id":{"$oid":"67df06b17ccc78cae6bca8b6"},"cab_id":"CAB249","start":"Dehradun","end":"Haridwar","availability":"No","type":"Mini","fare_per_km":10,"rating":4.2}
+{"_id":{"$oid":"67df06b17ccc78cae6bca8b7"},"cab_id":"CAB250","start":"Ranchi","end":"Dhanbad","availability":"Yes","type":"Sedan","fare_per_km":15,"rating":4.7}
+{"_id":{"$oid":"67df07f20bdc43a0f363f23b"},"cab_id":"CAB101","operator":"Uber","from":"Delhi Railway Station","to":"IGI Airport","fare":600,"type":"Sedan"}
+{"_id":{"$oid":"67df07f20bdc43a0f363f23c"},"cab_id":"CAB102","operator":"Ola","from":"New Delhi Station","to":"IGI Airport","fare":550,"type":"Hatchback"}
+{"_id":{"$oid":"67df07f20bdc43a0f363f23d"},"cab_id":"CAB103","operator":"Meru","from":"Mumbai Central","to":"CSIA Mumbai","fare":700,"type":"SUV"}
+{"_id":{"$oid":"67df07f20bdc43a0f363f23e"},"cab_id":"CAB104","operator":"Uber","from":"Bangalore City Station","to":"Kempegowda Airport","fare":850,"type":"Sedan"}
+{"_id":{"$oid":"67df07f20bdc43a0f363f23f"},"cab_id":"CAB105","operator":"Ola","from":"Hyderabad Deccan Station","to":"Rajiv Gandhi Airport","fare":750,"type":"SUV"}
+{"_id":{"$oid":"67df07f20bdc43a0f363f240"},"cab_id":"CAB106","operator":"Meru","from":"Chennai Central","to":"Chennai Airport","fare":500,"type":"Hatchback"}
+{"_id":{"$oid":"67df07f20bdc43a0f363f241"},"cab_id":"CAB107","operator":"Uber","from":"Howrah Station","to":"Netaji Subhash Airport","fare":650,"type":"Sedan"}
+{"_id":{"$oid":"67df07f20bdc43a0f363f242"},"cab_id":"CAB108","operator":"Ola","from":"Ahmedabad Junction","to":"Sardar Vallabhbhai Patel Airport","fare":600,"type":"SUV"}
+{"_id":{"$oid":"67df07f20bdc43a0f363f243"},"cab_id":"CAB109","operator":"Meru","from":"Pune Railway Station","to":"Pune Airport","fare":500,"type":"Hatchback"}
+{"_id":{"$oid":"67df07f20bdc43a0f363f244"},"cab_id":"CAB110","operator":"Uber","from":"Mysore Railway Station","to":"Kempegowda Airport","fare":1200,"type":"Luxury"}
+{"_id":{"$oid":"67df07f20bdc43a0f363f245"},"cab_id":"CAB111","operator":"Ola","from":"Jaipur Railway Station","to":"Jaipur Airport","fare":700,"type":"Sedan"}
+{"_id":{"$oid":"67df07f20bdc43a0f363f246"},"cab_id":"CAB112","operator":"Meru","from":"Lucknow Charbagh","to":"Lucknow Airport","fare":650,"type":"SUV"}
+{"_id":{"$oid":"67df07f20bdc43a0f363f247"},"cab_id":"CAB113","operator":"Uber","from":"Kochi Railway Station","to":"Cochin Airport","fare":750,"type":"Luxury"}
+{"_id":{"$oid":"67df07f20bdc43a0f363f248"},"cab_id":"CAB114","operator":"Ola","from":"Bhopal Railway Station","to":"Bhopal Airport","fare":550,"type":"Hatchback"}
+{"_id":{"$oid":"67df07f20bdc43a0f363f249"},"cab_id":"CAB115","operator":"Meru","from":"Indore Junction","to":"Indore Airport","fare":600,"type":"Sedan"}
+{"_id":{"$oid":"67df07f20bdc43a0f363f24a"},"cab_id":"CAB116","operator":"Uber","from":"Trivandrum Railway Station","to":"Trivandrum Airport","fare":800,"type":"Luxury"}
+{"_id":{"$oid":"67df07f20bdc43a0f363f24b"},"cab_id":"CAB117","operator":"Ola","from":"Goa Madgaon Station","to":"Dabolim Airport","fare":650,"type":"SUV"}
+{"_id":{"$oid":"67df07f20bdc43a0f363f24c"},"cab_id":"CAB118","operator":"Meru","from":"Varanasi Railway Station","to":"Lal Bahadur Shastri Airport","fare":700,"type":"Sedan"}
+{"_id":{"$oid":"67df07f20bdc43a0f363f24d"},"cab_id":"CAB119","operator":"Uber","from":"Patna Railway Station","to":"Jay Prakash Narayan Airport","fare":600,"type":"Hatchback"}
+{"_id":{"$oid":"67df07f20bdc43a0f363f24e"},"cab_id":"CAB120","operator":"Ola","from":"Guwahati Railway Station","to":"Lokpriya Gopinath Airport","fare":750,"type":"SUV"}

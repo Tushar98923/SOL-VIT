@@ -1,0 +1,80 @@
+{"_id":{"$oid":"67df019836e318c9a4f4375e"},"bus_no":"MH101","start":"Mumbai","end":"Pune","stops":["Lonavala"],"departure":"06:00","arrival":"09:30","type":"AC Sleeper"}
+{"_id":{"$oid":"67df019836e318c9a4f4375f"},"bus_no":"DL202","start":"Delhi","end":"Jaipur","stops":["Gurgaon","Rewari"],"departure":"07:30","arrival":"12:00","type":"Volvo"}
+{"_id":{"$oid":"67df019836e318c9a4f43760"},"bus_no":"KA303","start":"Bangalore","end":"Mysore","stops":["Ramanagara"],"departure":"08:00","arrival":"10:30","type":"Non-AC"}
+{"_id":{"$oid":"67df019836e318c9a4f43761"},"bus_no":"TN404","start":"Chennai","end":"Coimbatore","stops":["Vellore","Salem"],"departure":"09:00","arrival":"15:00","type":"AC"}
+{"_id":{"$oid":"67df019836e318c9a4f43762"},"bus_no":"WB505","start":"Kolkata","end":"Durgapur","stops":["Bardhaman"],"departure":"10:00","arrival":"13:00","type":"Semi-Sleeper"}
+{"_id":{"$oid":"67df019836e318c9a4f43763"},"bus_no":"RJ606","start":"Jaipur","end":"Udaipur","stops":["Ajmer"],"departure":"11:00","arrival":"17:00","type":"Luxury"}
+{"_id":{"$oid":"67df019836e318c9a4f43764"},"bus_no":"MP707","start":"Bhopal","end":"Indore","stops":["Sehore","Dewas"],"departure":"12:00","arrival":"15:00","type":"Deluxe"}
+{"_id":{"$oid":"67df019836e318c9a4f43765"},"bus_no":"TS808","start":"Hyderabad","end":"Vijayawada","stops":["Suryapet"],"departure":"13:00","arrival":"17:00","type":"AC Sleeper"}
+{"_id":{"$oid":"67df019836e318c9a4f43766"},"bus_no":"GJ909","start":"Ahmedabad","end":"Surat","stops":["Vadodara"],"departure":"14:00","arrival":"18:00","type":"Luxury"}
+{"_id":{"$oid":"67df019836e318c9a4f43767"},"bus_no":"PB1010","start":"Chandigarh","end":"Amritsar","stops":["Ludhiana","Jalandhar"],"departure":"15:00","arrival":"20:00","type":"Volvo"}
+{"_id":{"$oid":"67df0290cf6bc7fe63ec506d"},"bus_no":"MH102","start":"Ahmedabad","end":"Jaipur","stops":["Udaipur","Ajmer"],"departure":"07:00","arrival":"18:00","type":"AC Sleeper"}
+{"_id":{"$oid":"67df0290cf6bc7fe63ec506e"},"bus_no":"DL203","start":"Delhi","end":"Shimla","stops":["Karnal","Chandigarh","Solan"],"departure":"06:30","arrival":"14:00","type":"Volvo"}
+{"_id":{"$oid":"67df0290cf6bc7fe63ec506f"},"bus_no":"RJ304","start":"Jaipur","end":"Agra","stops":["Dausa","Bharatpur"],"departure":"08:15","arrival":"13:45","type":"Express"}
+{"_id":{"$oid":"67df0290cf6bc7fe63ec5070"},"bus_no":"UP405","start":"Lucknow","end":"Gorakhpur","stops":["Faizabad","Basti"],"departure":"10:00","arrival":"15:00","type":"Luxury"}
+{"_id":{"$oid":"67df0290cf6bc7fe63ec5071"},"bus_no":"WB506","start":"Kolkata","end":"Digha","stops":["Kharagpur","Contai"],"departure":"07:30","arrival":"11:30","type":"AC Seater"}
+{"_id":{"$oid":"67df0290cf6bc7fe63ec5072"},"bus_no":"TN607","start":"Chennai","end":"Pondicherry","stops":["Mahabalipuram"],"departure":"09:00","arrival":"12:00","type":"AC Seater"}
+{"_id":{"$oid":"67df0290cf6bc7fe63ec5073"},"bus_no":"KA708","start":"Bangalore","end":"Coorg","stops":["Mysore","Kushalnagar"],"departure":"05:45","arrival":"12:30","type":"Luxury"}
+{"_id":{"$oid":"67df0290cf6bc7fe63ec5074"},"bus_no":"KL809","start":"Kochi","end":"Munnar","stops":["Aluva","Adimali"],"departure":"08:00","arrival":"13:00","type":"Express"}
+{"_id":{"$oid":"67df0290cf6bc7fe63ec5075"},"bus_no":"MP910","start":"Bhopal","end":"Indore","stops":["Sehore","Dewas"],"departure":"09:30","arrival":"12:30","type":"AC Sleeper"}
+{"_id":{"$oid":"67df0290cf6bc7fe63ec5076"},"bus_no":"CG011","start":"Raipur","end":"Bilaspur","stops":["Tilda","Bhatapara"],"departure":"07:00","arrival":"11:00","type":"Luxury"}
+{"_id":{"$oid":"67df03071bb89acf1c7afb57"},"bus_no":"HR112","start":"Delhi","end":"Manali","stops":["Ambala","Mandi","Kullu"],"departure":"19:00","arrival":"07:00","type":"Volvo Sleeper"}
+{"_id":{"$oid":"67df03071bb89acf1c7afb58"},"bus_no":"PB223","start":"Amritsar","end":"Chandigarh","stops":["Jalandhar","Ludhiana"],"departure":"08:30","arrival":"12:30","type":"Express"}
+{"_id":{"$oid":"67df03071bb89acf1c7afb59"},"bus_no":"GJ334","start":"Surat","end":"Mumbai","stops":["Valsad","Vapi"],"departure":"06:45","arrival":"11:15","type":"AC Seater"}
+{"_id":{"$oid":"67df03071bb89acf1c7afb5a"},"bus_no":"MH445","start":"Pune","end":"Nashik","stops":["Ahmednagar","Shirdi"],"departure":"10:00","arrival":"15:00","type":"Luxury"}
+{"_id":{"$oid":"67df03071bb89acf1c7afb5b"},"bus_no":"RJ556","start":"Udaipur","end":"Jodhpur","stops":["Pali","Falna"],"departure":"07:00","arrival":"12:30","type":"Express"}
+{"_id":{"$oid":"67df03071bb89acf1c7afb5c"},"bus_no":"KA667","start":"Mangalore","end":"Bangalore","stops":["Udupi","Hassan"],"departure":"21:30","arrival":"06:00","type":"Volvo Sleeper"}
+{"_id":{"$oid":"67df03071bb89acf1c7afb5d"},"bus_no":"KL778","start":"Trivandrum","end":"Kochi","stops":["Kollam","Alleppey"],"departure":"08:00","arrival":"12:00","type":"AC Seater"}
+{"_id":{"$oid":"67df03071bb89acf1c7afb5e"},"bus_no":"MP889","start":"Indore","end":"Gwalior","stops":["Bhopal","Shivpuri"],"departure":"09:00","arrival":"18:00","type":"Luxury"}
+{"_id":{"$oid":"67df03071bb89acf1c7afb5f"},"bus_no":"UP990","start":"Varanasi","end":"Allahabad","stops":["Mirzapur"],"departure":"11:00","arrival":"14:00","type":"Express"}
+{"_id":{"$oid":"67df03071bb89acf1c7afb60"},"bus_no":"CG101","start":"Bilaspur","end":"Raigarh","stops":["Champa","Korba"],"departure":"07:30","arrival":"11:30","type":"Luxury"}
+{"_id":{"$oid":"67df035bbaace1e3b058f6e2"},"bus_no":"RJ445","start":"Jaipur","end":"Mount Abu","stops":["Ajmer","Pali"],"departure":"19:00","arrival":"05:00","type":"Sleeper AC"}
+{"_id":{"$oid":"67df035bbaace1e3b058f6e3"},"bus_no":"KA556","start":"Bangalore","end":"Coorg","stops":["Mysore"],"departure":"07:00","arrival":"12:00","type":"Luxury"}
+{"_id":{"$oid":"67df035bbaace1e3b058f6e4"},"bus_no":"DL667","start":"Delhi","end":"Nainital","stops":["Gurgaon","Moradabad"],"departure":"21:30","arrival":"07:00","type":"Semi-Sleeper"}
+{"_id":{"$oid":"67df035bbaace1e3b058f6e5"},"bus_no":"WB778","start":"Kolkata","end":"Digha","stops":["Kharagpur"],"departure":"06:00","arrival":"11:00","type":"AC Seater"}
+{"_id":{"$oid":"67df035bbaace1e3b058f6e6"},"bus_no":"GJ889","start":"Ahmedabad","end":"Dwarka","stops":["Rajkot","Jamnagar"],"departure":"20:00","arrival":"08:00","type":"Sleeper"}
+{"_id":{"$oid":"67df035bbaace1e3b058f6e7"},"bus_no":"TN990","start":"Madurai","end":"Kodaikanal","stops":["Dindigul"],"departure":"08:30","arrival":"13:00","type":"Mini Bus"}
+{"_id":{"$oid":"67df035bbaace1e3b058f6e8"},"bus_no":"MH101","start":"Pune","end":"Shirdi","stops":["Nashik"],"departure":"05:30","arrival":"11:00","type":"AC Seater"}
+{"_id":{"$oid":"67df035bbaace1e3b058f6e9"},"bus_no":"HR202","start":"Chandigarh","end":"Shimla","stops":["Solan"],"departure":"10:00","arrival":"15:00","type":"Luxury Coach"}
+{"_id":{"$oid":"67df035bbaace1e3b058f6ea"},"bus_no":"BR303","start":"Patna","end":"Bodh Gaya","stops":["Gaya"],"departure":"14:00","arrival":"17:30","type":"Deluxe"}
+{"_id":{"$oid":"67df035bbaace1e3b058f6eb"},"bus_no":"UP404","start":"Lucknow","end":"Varanasi","stops":["Prayagraj"],"departure":"18:00","arrival":"00:30","type":"Volvo Sleeper"}
+{"_id":{"$oid":"67df03c68873a67908637caf"},"bus_no":"TN505","start":"Chennai","end":"Pondicherry","stops":["Mahabalipuram"],"departure":"07:00","arrival":"10:30","type":"Luxury AC"}
+{"_id":{"$oid":"67df03c68873a67908637cb0"},"bus_no":"MH606","start":"Mumbai","end":"Mahabaleshwar","stops":["Pune","Wai"],"departure":"22:00","arrival":"06:00","type":"Sleeper AC"}
+{"_id":{"$oid":"67df03c68873a67908637cb1"},"bus_no":"RJ707","start":"Jodhpur","end":"Udaipur","stops":["Pali","Ranakpur"],"departure":"08:00","arrival":"14:00","type":"Deluxe"}
+{"_id":{"$oid":"67df03c68873a67908637cb2"},"bus_no":"KL808","start":"Kochi","end":"Munnar","stops":["Ernakulam"],"departure":"06:30","arrival":"11:00","type":"AC Seater"}
+{"_id":{"$oid":"67df03c68873a67908637cb3"},"bus_no":"MP909","start":"Bhopal","end":"Indore","stops":["Ujjain"],"departure":"17:30","arrival":"21:00","type":"Volvo AC"}
+{"_id":{"$oid":"67df03c68873a67908637cb4"},"bus_no":"AS101","start":"Guwahati","end":"Shillong","stops":["Nongpoh"],"departure":"09:00","arrival":"13:00","type":"Luxury AC"}
+{"_id":{"$oid":"67df03c68873a67908637cb5"},"bus_no":"PB202","start":"Amritsar","end":"Dharamshala","stops":["Pathankot"],"departure":"19:30","arrival":"05:30","type":"Sleeper"}
+{"_id":{"$oid":"67df03c68873a67908637cb6"},"bus_no":"OD303","start":"Bhubaneswar","end":"Puri","stops":["Khordha"],"departure":"12:00","arrival":"14:30","type":"Deluxe"}
+{"_id":{"$oid":"67df03c68873a67908637cb7"},"bus_no":"CG404","start":"Raipur","end":"Jagdalpur","stops":["Kanker"],"departure":"18:00","arrival":"06:00","type":"Sleeper AC"}
+{"_id":{"$oid":"67df03c68873a67908637cb8"},"bus_no":"HP505","start":"Manali","end":"Chandigarh","stops":["Mandi","Bilaspur"],"departure":"20:00","arrival":"07:00","type":"Volvo AC"}
+{"_id":{"$oid":"67df03f5a4fcafba58a21367"},"bus_no":"KA606","start":"Bangalore","end":"Mysore","stops":["Ramanagara","Mandya"],"departure":"06:00","arrival":"09:30","type":"Luxury AC"}
+{"_id":{"$oid":"67df03f5a4fcafba58a21368"},"bus_no":"TN707","start":"Coimbatore","end":"Ooty","stops":["Mettupalayam"],"departure":"08:00","arrival":"12:00","type":"Deluxe"}
+{"_id":{"$oid":"67df03f5a4fcafba58a21369"},"bus_no":"GJ808","start":"Ahmedabad","end":"Surat","stops":["Vadodara","Bharuch"],"departure":"14:00","arrival":"18:30","type":"Volvo AC"}
+{"_id":{"$oid":"67df03f5a4fcafba58a2136a"},"bus_no":"WB909","start":"Kolkata","end":"Digha","stops":["Kharagpur"],"departure":"05:30","arrival":"10:00","type":"AC Seater"}
+{"_id":{"$oid":"67df03f5a4fcafba58a2136b"},"bus_no":"UP101","start":"Lucknow","end":"Varanasi","stops":["Prayagraj"],"departure":"21:00","arrival":"04:00","type":"Sleeper AC"}
+{"_id":{"$oid":"67df03f5a4fcafba58a2136c"},"bus_no":"MH202","start":"Nagpur","end":"Aurangabad","stops":["Wardha","Jalna"],"departure":"23:00","arrival":"07:00","type":"Sleeper"}
+{"_id":{"$oid":"67df03f5a4fcafba58a2136d"},"bus_no":"RJ303","start":"Jaipur","end":"Mount Abu","stops":["Ajmer","Pali"],"departure":"19:00","arrival":"05:00","type":"Volvo AC"}
+{"_id":{"$oid":"67df03f5a4fcafba58a2136e"},"bus_no":"BR404","start":"Patna","end":"Gaya","stops":["Jehanabad"],"departure":"13:00","arrival":"16:30","type":"Deluxe"}
+{"_id":{"$oid":"67df03f5a4fcafba58a2136f"},"bus_no":"JK505","start":"Jammu","end":"Srinagar","stops":["Udhampur","Anantnag"],"departure":"07:00","arrival":"18:00","type":"Luxury AC"}
+{"_id":{"$oid":"67df03f5a4fcafba58a21370"},"bus_no":"MP606","start":"Gwalior","end":"Jhansi","stops":["Datia"],"departure":"10:30","arrival":"13:00","type":"AC Seater"}
+{"_id":{"$oid":"67df0425df4d3fe1bd63f261"},"bus_no":"AP707","start":"Hyderabad","end":"Vijayawada","stops":["Nalgonda"],"departure":"09:00","arrival":"14:00","type":"Luxury AC"}
+{"_id":{"$oid":"67df0425df4d3fe1bd63f262"},"bus_no":"TN808","start":"Chennai","end":"Madurai","stops":["Villupuram","Trichy"],"departure":"22:00","arrival":"06:30","type":"Sleeper AC"}
+{"_id":{"$oid":"67df0425df4d3fe1bd63f263"},"bus_no":"GJ909","start":"Rajkot","end":"Bhavnagar","stops":["Gondal","Botad"],"departure":"15:30","arrival":"20:00","type":"Volvo AC"}
+{"_id":{"$oid":"67df0425df4d3fe1bd63f264"},"bus_no":"WB101","start":"Siliguri","end":"Darjeeling","stops":["Kurseong"],"departure":"07:00","arrival":"11:00","type":"AC Seater"}
+{"_id":{"$oid":"67df0425df4d3fe1bd63f265"},"bus_no":"UP202","start":"Agra","end":"Kanpur","stops":["Etawah"],"departure":"17:00","arrival":"22:30","type":"Deluxe"}
+{"_id":{"$oid":"67df0425df4d3fe1bd63f266"},"bus_no":"MH303","start":"Mumbai","end":"Shirdi","stops":["Nashik"],"departure":"23:30","arrival":"07:00","type":"Sleeper"}
+{"_id":{"$oid":"67df0425df4d3fe1bd63f267"},"bus_no":"RJ404","start":"Jodhpur","end":"Bikaner","stops":["Nagaur"],"departure":"05:30","arrival":"12:00","type":"Luxury AC"}
+{"_id":{"$oid":"67df0425df4d3fe1bd63f268"},"bus_no":"BR505","start":"Muzaffarpur","end":"Darbhanga","stops":["Samastipur"],"departure":"10:00","arrival":"13:30","type":"Deluxe"}
+{"_id":{"$oid":"67df0425df4d3fe1bd63f269"},"bus_no":"JK606","start":"Leh","end":"Kargil","stops":["Lamayuru"],"departure":"06:00","arrival":"14:30","type":"AC Seater"}
+{"_id":{"$oid":"67df0425df4d3fe1bd63f26a"},"bus_no":"MP707","start":"Indore","end":"Bhopal","stops":["Ujjain"],"departure":"18:30","arrival":"22:00","type":"Volvo AC"}
+{"_id":{"$oid":"67df07c78029c663b58f3d0a"},"bus_no":"AP01","operator":"Airport Express","from":"Delhi Railway Station","to":"IGI Airport","stops":["CP","RK Ashram"],"departure":"05:00","arrival":"05:45","fare":150}
+{"_id":{"$oid":"67df07c78029c663b58f3d0b"},"bus_no":"AP02","operator":"Delhi Metro Feeder","from":"New Delhi Station","to":"IGI Airport","stops":["Aerocity"],"departure":"06:30","arrival":"07:00","fare":100}
+{"_id":{"$oid":"67df07c78029c663b58f3d0c"},"bus_no":"AP03","operator":"BEST","from":"Mumbai Central","to":"CSIA Mumbai","stops":["Dadar","Andheri"],"departure":"07:15","arrival":"08:00","fare":180}
+{"_id":{"$oid":"67df07c78029c663b58f3d0d"},"bus_no":"AP04","operator":"KSRTC","from":"Bangalore City Station","to":"Kempegowda Airport","stops":["Hebbal"],"departure":"08:00","arrival":"09:15","fare":200}
+{"_id":{"$oid":"67df07c78029c663b58f3d0e"},"bus_no":"AP05","operator":"TSRTC","from":"Hyderabad Deccan Station","to":"Rajiv Gandhi Airport","stops":["Mehdipatnam"],"departure":"09:30","arrival":"10:20","fare":150}
+{"_id":{"$oid":"67df07c78029c663b58f3d0f"},"bus_no":"AP06","operator":"TNSTC","from":"Chennai Central","to":"Chennai Airport","stops":["Guindy"],"departure":"10:45","arrival":"11:15","fare":100}
+{"_id":{"$oid":"67df07c78029c663b58f3d10"},"bus_no":"AP07","operator":"WBTC","from":"Howrah Station","to":"Netaji Subhash Airport","stops":["Dumdum"],"departure":"12:00","arrival":"12:45","fare":120}
+{"_id":{"$oid":"67df07c78029c663b58f3d11"},"bus_no":"AP08","operator":"GSRTC","from":"Ahmedabad Junction","to":"Sardar Vallabhbhai Patel Airport","stops":["Naranpura"],"departure":"13:30","arrival":"14:00","fare":130}
+{"_id":{"$oid":"67df07c78029c663b58f3d12"},"bus_no":"AP09","operator":"PMPML","from":"Pune Railway Station","to":"Pune Airport","stops":["Viman Nagar"],"departure":"14:30","arrival":"15:00","fare":110}
+{"_id":{"$oid":"67df07c78029c663b58f3d13"},"bus_no":"AP10","operator":"BMTC","from":"Mysore Railway Station","to":"Kempegowda Airport","stops":["Mandya","Electronic City"],"departure":"15:30","arrival":"18:00","fare":250}
