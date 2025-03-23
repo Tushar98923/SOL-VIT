@@ -1,94 +1,129 @@
-import pymongo
-import re
+from pymongo import MongoClient
+from datetime import datetime, timedelta
 
-# MongoDB Connection URI
-MONGO_URI = "mongodb://localhost:27017/"
-DB_NAME = "travel_app"
 
-### 1️⃣ CONVERT DURATION TO MINUTES ###
-def convert_duration_to_minutes(duration_str):
-    """Converts duration format '2h 30m' to minutes (150)."""
-    match = re.match(r'(?:(\d+)h)?\s*(?:(\d+)m)?', duration_str)
-    if match:
-        hours = int(match.group(1)) if match.group(1) else 0
-        minutes = int(match.group(2)) if match.group(2) else 0
-        return hours * 60 + minutes
-    return 0  # Default to 0 if format is incorrect
+class RouteFinder:
+    def __init__(self):
+        self.graph = {}
+        self.sources = set()
+        self.destinations = set()
 
-### 2️⃣ FETCH DATA FROM DATABASE ###
-def fetch_data():
-    """Fetches all transportation data from MongoDB and ensures proper field names."""
-    try:
-        client = pymongo.MongoClient(MONGO_URI)
-        db = client[DB_NAME]
+    def add_route(self, source, destination, mode, cost, duration):
+        """Add route to the graph with multiple modes and options."""
+        if source not in self.graph:
+            self.graph[source] = {}
+        if destination not in self.graph[source]:
+            self.graph[source][destination] = []
+        self.graph[source][destination].append({
+            "mode": mode,
+            "cost": cost,
+            "duration": duration
+        })
+        # Track unique sources and destinations
+        self.sources.add(source)
+        self.destinations.add(destination)
 
-        train_data = list(db["trains"].find({}))
-        bus_data = list(db["buses"].find({}))
-        cab_data = list(db["cabs"].find({}))
-        flight_data = list(db["flights"].find({}))
+    def fetch_data(self):
+        """Fetch data from MongoDB and build graph."""
+        client = MongoClient('mongodb://localhost:27017/')
+        db = client["travel_app"]
 
-        # Convert flight data field names
-        for flight in flight_data:
-            flight["source"] = flight.pop("from", None)  # Rename 'from' to 'source'
-            flight["destination"] = flight.pop("to", None)  # Rename 'to' to 'destination'
-            flight["fare"] = flight.pop("price", None)  # Rename 'price' to 'fare'
-            flight["duration"] = convert_duration_to_minutes(flight["duration"])  # Convert duration to minutes
+        # Fetch all collections
+        flight_data = list(db["flights"].find())
+        bus_data = list(db["buses"].find())
+        train_data = list(db["trains"].find())
+        cab_data = list(db["cabs"].find())
 
-        return train_data, bus_data, cab_data, flight_data
+        # Standardize field names
+        self.standardize_data(flight_data, "flight")
+        self.standardize_data(bus_data, "bus")
+        self.standardize_data(train_data, "train")
+        self.standardize_data(cab_data, "cab")
 
-    except pymongo.errors.ConnectionError:
-        print("[ERROR] Could not connect to MongoDB. Is the server running?")
-    except pymongo.errors.PyMongoError as e:
-        print(f"[ERROR] MongoDB Query Failed: {e}")
-    except Exception as e:
-        print(f"[ERROR] Unexpected Error: {e}")
+        # Debug: Check if graph is populated correctly
+        if not self.graph:
+            print("[WARNING] Graph is empty. Check data fetching and field renaming.")
 
-    return [], [], [], []  # ✅ Always return empty lists instead of None
+    def standardize_data(self, data, mode):
+        """Standardize field names across all modes."""
+        for record in data:
+            if mode == "flight" or mode == "cab":
+                record["source"] = record.pop("from", None)
+                record["destination"] = record.pop("to", None)
+            elif mode == "bus":
+                record["source"] = record.pop("start", None)
+                record["destination"] = record.pop("end", None)
 
-### 3️⃣ BUILD GRAPH ###
-def build_graph(trains, buses, cabs, flights):
-    """Builds a graph from all transportation data."""
-    graph = {}
+            # Calculate duration for trains if needed
+            if mode == "train" and "departure_time" in record and "arrival_time" in record:
+                duration = record["arrival_time"] - record["departure_time"]
+                record["duration"] = int(duration.total_seconds() / 60)
 
-    def add_route(source, destination, transport_type, details):
-        """Adds a route to the graph with transport details."""
-        if not source or not destination:
-            print(f"[WARNING] Skipping {transport_type} record with missing data: {details}")
-            return  # Skip this entry if source or destination is missing
+            # Add valid records to graph
+            if "source" in record and "destination" in record and "cost" in record and "duration" in record:
+                self.add_route(
+                    record["source"],
+                    record["destination"],
+                    mode,
+                    record["cost"],
+                    record["duration"]
+                )
+            else:
+                print(f"[ERROR] Missing data in record: {record}")
 
-        if source not in graph:
-            graph[source] = []
-        graph[source].append({"destination": destination, "type": transport_type, "details": details})
+    def get_routes(self, source, destination):
+        """Retrieve possible routes from source to destination."""
+        if source in self.graph and destination in self.graph[source]:
+            return self.graph[source][destination]
+        else:
+            return []
 
-    # Add all train routes
-    for train in trains:
-        add_route(train.get("source"), train.get("destination"), "Train", train)
+    def print_graph(self):
+        """Debug function to print the graph."""
+        for source, destinations in self.graph.items():
+            for destination, routes in destinations.items():
+                print(f"From {source} to {destination}:")
+                for route in routes:
+                    print(f" - {route['mode']} | Cost: {route['cost']} | Duration: {route['duration']} mins")
 
-    # Add all bus routes
-    for bus in buses:
-        add_route(bus.get("source"), bus.get("destination"), "Bus", bus)
+    def get_user_input(self):
+        """Get validated user input for source and destination."""
+        print("Available Sources:")
+        print(", ".join(self.sources))
+        print("\nAvailable Destinations:")
+        print(", ".join(self.destinations))
 
-    # Add all cab routes
-    for cab in cabs:
-        add_route(cab.get("source"), cab.get("destination"), "Cab", cab)
+        # Get source and destination with error handling
+        while True:
+            source = input("\nEnter the source: ")
+            if source in self.sources:
+                break
+            else:
+                print(f"[ERROR] '{source}' is not a valid source. Please choose from the available options.")
+        
+        while True:
+            destination = input("Enter the destination: ")
+            if destination in self.destinations:
+                break
+            else:
+                print(f"[ERROR] '{destination}' is not a valid destination. Please choose from the available options.")
+        
+        return source, destination
 
-    # Add all flight routes
-    for flight in flights:
-        add_route(flight.get("source"), flight.get("destination"), "Flight", flight)
 
-    return graph
+# Usage
+route_finder = RouteFinder()
+route_finder.fetch_data()
 
-### 4️⃣ TEST BUILD GRAPH ###
-if __name__ == "__main__":
-    trains, buses, cabs, flights = fetch_data()
-    graph = build_graph(trains, buses, cabs, flights)
+# Get valid source and destination from the user
+source, destination = route_finder.get_user_input()
 
-    # ✅ Print the graph for verification
-    print("\n--- GRAPH DATA ---")
-    for source, connections in graph.items():
-        print(f"{source}:")
-        for connection in connections:
-            destination = connection["destination"]
-            transport_type = connection["type"]
-            details = connection["details"]
-            print(f"  → {destination} via {transport_type} | Fare: {details.get('fare', 'N/A')} | Duration: {details.get('duration', 'N/A')} min")
+# Fetch and print available routes
+routes = route_finder.get_routes(source, destination)
+
+if routes:
+    print(f"\nAvailable routes from {source} to {destination}:")
+    for route in routes:
+        print(f" - {route['mode']} | Cost: {route['cost']} | Duration: {route['duration']} mins")
+else:
+    print(f"\nNo available routes found from {source} to {destination}.")
